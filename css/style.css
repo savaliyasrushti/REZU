@@ -1,0 +1,1194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* mulish-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/mulish-v13-latin-200.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-200.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-200.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-200.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v13-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-300.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-300.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/mulish-v13-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-500.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/mulish-v13-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-600.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v13-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/mulish-v13-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-800.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-800.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-800.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/mulish-v13-latin-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mulish-v13-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v13-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/mulish-v13-latin-900.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/mulish-v13-latin-900.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/mulish-v13-latin-900.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+
+
+
+  /* kanit-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/kanit-v15-latin-100.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-100.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-100.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-100.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-100.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/kanit-v15-latin-200.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-200.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-200.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-200.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/kanit-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-300.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-300.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-300.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kanit-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-regular.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/kanit-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-500.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/kanit-v15-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-600.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/kanit-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-700.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/kanit-v15-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-800.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-800.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-800.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+  /* kanit-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/kanit-v15-latin-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kanit-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/kanit-v15-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/kanit-v15-latin-900.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/kanit-v15-latin-900.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/kanit-v15-latin-900.svg#Kanit') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:#EE3B24;
+    --bgcolor:white;
+    --secondcolor:#666666;
+    --titelcolor:#333333;
+    --kanitfont:'Kanit';
+    --mulifont:'Mulish';
+}
+body{
+    font-family:'Mulish' ,'Kanit' ,'open sans';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* loader start*/
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: #fff;
+}
+/* loder end */
+.container{
+    width: 1170px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.fixed {
+    position: fixed;
+    top:0; 
+    left:0;
+    width: 100%; 
+}
+
+.mainmenu {
+    margin-top: 10px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0px;
+    border-radius: 4px;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 8px;
+    
+}
+.navbar-header {
+    float: left;
+}
+.navbar-brand {
+    display: block;
+    color:var(--bgcolor);
+    font-family: var(--subfont);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 15px 0;
+    float: left;
+    height: 50px;
+    line-height: 20px;
+    
+
+
+}.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+    display: flex;
+    /* text-align: center !important; */
+    margin-top: 13px;
+
+    
+   
+}
+.mainmenu .navbar-right li.active a {
+    color:var(--maincolor);
+}
+.navbar-right li a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    font-family: var(--kanitfont);
+    /* align-items: center; */
+}
+.fixed .navbar-right li a{
+    color: white;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: .3s;
+    background-color: rgba(0, 0,0, .8);
+    /* width: 1170px; */
+    padding-right: 60px;
+    padding-left: 60px;
+    
+   
+    
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+
+}
+
+/* header end */
+
+
+/* slider start */
+
+.cap {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translateY(-50%);
+}
+
+
+
+.item1 img{
+    height:650px;
+    width: 100%;
+    
+    object-fit: cover;
+   
+}
+.item1{
+    position: relative;
+}
+.item1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 650px;
+    width: 100%;
+    background-color:rgba(0, 0,0, .7);
+}
+
+.cap{
+    position: absolute;
+    top: 49%;
+    left: 26%;
+    text-align: center;
+    z-index: 10;
+    
+  
+}
+.cap p{
+    font-size: 21px;
+    color:var(--bgcolor);
+    font-weight: 500;
+    font-family: var(--kanitfont);
+    letter-spacing: 2px;
+    
+
+}
+
+.cap  span {
+    /* left:30%; */
+    font-size: 40px;
+    color: var(--bgcolor);
+    font-weight: 600;
+    align-items: center;
+    font-family: var(--kanitfont);
+    letter-spacing: 2px;
+    padding: 10px;
+    
+
+}
+
+
+.btn_1{
+    margin-top: 20px;
+    display: inline-block;
+    background: var(--maincolor);
+    padding: 10px 25px;
+    border: 2px solid #ee3b24;
+    color: var(--bgcolor);
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 20px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    font-family: var(--kanitfont);
+    &:hover{
+        color:var(--maincolor);
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+}
+.btn_2{
+    display: inline-block;
+    background: transparent;
+    padding: 10px 25px;
+    border: 2px solid #ee3b24;
+    color: var(--maincolor);
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 20px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    font-family: var(--kanitfont);
+    &:hover{
+        color:var(--bgcolor);
+        background-color: var(--maincolor);
+        cursor: pointer;
+
+    }
+}
+
+/* slider end */
+
+
+/* ABOUT US  START */
+
+.space-about{
+    padding: 70px 0;
+}
+.about-section{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.about-section h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--titelcolor);
+    margin-bottom: 15px;
+    position: relative;
+   
+}
+.about-section h1::before{
+    content: '';
+    width: 7.5%;
+    height: 2px;
+  
+    background-color:var(--maincolor);
+    position: absolute;
+    top: 140%;
+    left: 46.5%;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    padding: 20px;
+    text-align: center;
+    font-family: var(--mulifont);
+    font-size: 17px;
+    color: var(--secondcolor);
+}
+.about-sub-section{
+    display: flex;
+}
+
+.top-text{
+    margin-bottom: 30px;
+}
+
+.right-text-about{
+    padding-top: 10px !important;
+    padding-left: 20px !important;
+}
+.top-text h1{
+ font-size: 21px;
+ color: var(--titelcolor);
+ font-weight: 400;
+ font-family: var(--kanitfont);
+}
+.top-text p{
+    padding-top: 10px;
+    font-size: 16px;
+    color: var(--mulifont);
+    line-height: 25px;
+    font-weight: 400;
+    color: var(--secondcolor);
+}
+.sub-text,.sub-text1,.sub-text2,.sub-text3{
+    margin-bottom: 30px;
+    position: relative;
+}
+.sub-text::before,.sub-text1::before,.sub-text2::before,.sub-text3::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #EE3B24;
+    border-radius: 50px;
+    background-color: transparent;
+    position: absolute;
+    top: -15%;
+ 
+    
+}
+.sub-text1::before{
+    top: -10%;
+}
+.sub-text2::before{
+    top: -10%;
+}
+.sub-text3::before{
+    top: 10%;
+}
+
+
+
+.ab-text,.ab-text1{
+    font-size: 17px;
+    color: var(--secondcolor);
+    font-weight: 300;
+    padding-left: 50px;
+    font-family: var(--mulifont);
+    
+}
+.ab-text1{
+    line-height: 30px;
+}
+.sub-text i,.sub-text1 i,.sub-text2 i,.sub-text3 i,.sub-text4 i{
+    z-index: 1;
+    color: var(--maincolor);
+    position: absolute;
+    top: 13%;
+    left: 1.80%;
+    font-size: 16px;
+}
+.sub-text1 i{
+    top: 25%;
+  
+}
+.sub-text2 i{
+    top: 30%;
+}
+.sub-text3 i{
+    top: 50%;
+}
+
+
+/* ABOUT US END */
+
+/* SKILL START */
+
+.skill-hading {
+    text-align: center;
+    position: relative;
+  
+}
+.skill-section{
+    height: 550px;
+    background-image: url(/image/skil.jpeg);
+    margin-bottom: 90px;
+    position: relative;
+    /* z-index: 10; */
+}
+.skill-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 550px;
+    width: 100%;
+    background-color:rgba(0, 0,0, .7);
+   
+}
+.main-skill-box h4{
+
+    font-family:var(--kanitfont);
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--bgcolor);
+    position: relative;
+    
+}
+.skill-hading::before{
+    content: '';
+    width: 7.5%;
+    height: 2px;
+    background-color:var(--maincolor);
+    position: absolute;
+    top: 70%;
+    left: 46.5%;
+    
+   
+}
+.skill-hading h4{
+    position: relative;
+    color: var(--bgcolor);
+    font-size: 17px;
+    font-family: var(--mulifont);
+    margin-bottom: 60px;
+  
+    
+}
+.skill-hading h3{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-family: var(--kanitfont);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--bgcolor);
+    z-index: 1;
+    position: relative;
+
+}
+.skill-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.line-first{
+    position: relative;
+    height: 8px;
+    border-radius: 10px;
+    background:black;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.second-line , .second-line_2 , .second-line_3 , .second-line_4 , .second-line_5 , .second-line_6{
+    height: 100%;
+    background-color: var(--maincolor);
+    width: 80%;
+    z-index: 10;
+    border-radius: 10px;
+    transition: width 2.5s;
+    display: block;
+}
+.second-line_2{
+    width: 80%;
+}
+.second-line_3{
+    width: 88%;
+}
+.second-line_4{
+    width: 85%;
+}
+.second-line_5{
+    width: 90%;
+}
+.second-line_6{
+    width: 90%;
+}
+/* SKILL END */
+
+
+
+/* OUR SERVICE START */
+
+.container{
+    width: 1170px;
+    /* margin-left: 90px; */
+}
+.price-hading::before{
+    content: '';
+    width: 7.5%;
+    height: 2px;
+    background-color:var(--maincolor);
+    position: absolute;
+    top: 70%;
+    left: 46.5%;
+    
+   
+}
+.price-hading h4{
+    position: relative;
+    color: var(--secondcolor);
+    font-size: 17px;
+    font-family: var(--mulifont);
+    margin-bottom: 60px;
+  
+    
+}
+.price-hading h3{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-family: var(--kanitfont);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--titelcolor);
+    z-index: 1;
+    position: relative;
+
+}
+.price-section{
+    padding: 80px 0;
+    background: #F5F5F5;
+}
+.price-hading{
+    /* padding-bottom: 40px; */
+    text-align: center;
+    position: relative;
+    
+}
+
+
+
+
+
+.pakage{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.pakage-box{
+    display: flex;
+    
+    
+}
+.icon-pak i{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 37px;
+    text-align: center;
+    padding-top: 12px;
+    color: var(--maincolor);
+   
+}
+.icon-pak i{
+    height: 50px;
+    width: 50px;
+    border:  1px solid #EE3B24;
+    border-radius: 50px;
+
+}
+.pakage-box h3{
+   
+    font-size: 21px;
+    font-weight: 400;
+   flex-wrap: wrap;
+   color: var(--titelcolor);
+    font-family: var(--kanitfont);
+}
+.pakage-box h3 p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--secondcolor);
+    line-height: 1.2;
+    text-align: left;
+    font-family: var(--mulifont);
+
+
+}
+
+/* OUR SERVICE END  */
+
+ /* OUR WORK START */
+
+ .work-title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.work-main-title{
+    margin-bottom: 70px;
+    text-align: center;
+    position: relative;
+ 
+}
+.work-main-title h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+   
+   color: var(--titelcolor);
+}
+.work-main-title p{
+    font-size: 17px;
+    font-family: var(--mulifont);
+    color: var(--secondcolor);
+    line-height: 1.7;
+}
+.work-main-title::before{
+    content: '';
+    width: 7.5%;
+    height: 2px;
+    background-color:var(--maincolor);
+    position: absolute;
+    top:50%;
+    left: 46.5%;
+    margin-bottom: 20px;
+}
+.sec_work .active_work{
+    color: var(--maincolor);
+}
+.sec_work a{
+ color: var(--titelcolor);
+ font-size: 17px;
+ font-family: var(--kanitfont);
+ margin-right: 30px;
+ &:hover{
+    text-decoration: underline 1px solid    ;
+    text-underline-offset: 5px;
+ }
+
+}
+.sec_work .active_work{
+    text-decoration: underline 1px solid;
+    text-underline-offset: 5px;
+}
+.sec_work{
+    align-items: center;
+    padding-left: 405px;
+}
+
+.work-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 80px;
+}
+.image img{
+    width: 338px;
+    height: 253px;
+    transform: scale(1.1);
+    object-fit: cover;
+}
+.image:hover img{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.image{
+    position: relative;
+    overflow: hidden;
+}
+.caption{
+    text-align: center;
+    background-color:rgba(0, 0,0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 351px;
+    height: 260px;
+    padding-top: 60px;
+    opacity: 0;
+    &:hover{
+        opacity: 1;
+        transition: .3s;
+    }
+}
+.arrow_plus i{
+ font-size: 30px;
+}
+
+.arrow_plus{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 30px;
+    transform: translatey(-150px);
+
+    &:hover{
+        transition: .3s;
+    }
+  
+}
+.arrow_plus:hover i{
+    color: white;
+    transition: .3s;
+}
+.image:hover .arrow_plus{
+        transition: .3s;
+        transform: translatey(0px);
+    
+}
+
+
+ /* OUR WORK END */
+
+
+/* TESTIMONIALS SLIDER START  */
+ 
+.main-about-sec {
+   
+    /* background-attachment: fixed; */
+    background-color: #4C4C4C;
+    height: 400px;
+ 
+  
+} 
+.owl-carousel .owl-item img {
+    width: 15%;
+    /* height: 20%; */
+
+    display: block;
+}
+
+.item3 img{
+    /* float: left; */
+    margin-top: 10px;
+    margin-right: 20px;
+    /* height: 50px; */
+    /* width: 50px; */
+    display: block;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+.item-inner{
+    display: flex;
+    margin-left: 100px;
+}
+#testimonial{
+    padding: 30px 0;
+    text-align: center;
+}
+.item3{
+    display: block;
+  
+    height: auto;
+   
+}
+
+#testimonial .item3 p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+
+    font-family: var(--mulifont);
+    margin-bottom: 30px;
+}
+.item3 i{
+    margin-bottom: 35px;
+    color: #fff;
+    font-size: 45px;
+}
+
+.last-about{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: var(--kanitfont);
+   
+}
+.last-about h1{
+    font-family: var(--mulifont);
+    font-size: 14px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+}
+.owl-dots{
+    display: none;
+}
+
+/* TESTIMONIALS SLIDER START */
+
+
+
+/*  Contact Us start */
+
+.contact-section{
+    padding-top: 80px;
+    background-color: #fff;
+}
+.contact-text{
+    position: relative;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.contact-text h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+   
+   color: var(--titelcolor);
+}
+.contact-text p{
+    font-size: 17px;
+    font-family: var(--mulifont);
+    color: var(--secondcolor);
+    line-height: 1.7;
+}
+.contact-text::before{
+    content: '';
+    width: 7.5%;
+    height: 2px;
+    background-color:var(--maincolor);
+    position: absolute;
+    top:30%;
+    left: 46.5%;
+    margin-bottom: 20px;
+}
+
+.contact-box{
+    padding-left: 250px;
+    padding-top: 10px;
+    /* padding-bottom: 80px; */
+}
+.contact-box input{
+
+    padding: 15px 10px;
+    margin-bottom: 32px;
+    outline: none;
+  
+    width: 555px;
+    /* border: 1px solid #00000022; */
+    border: none;
+    border-bottom: 1px solid #222222;
+    color: #666;
+    
+}
+
+.contact-form .form-group:before {
+    position: absolute;
+    height: 45px;
+    font-family: FontAwesome;
+    top: 0;
+    left: 0;
+    width: 15px;
+    text-align: center;
+    line-height: 45px;
+    color: #ee3b24
+}
+::placeholder{
+    font-size: 15px;
+    color: #aaaaaa;
+   
+    font-weight: 100;
+}
+
+
+.btn_3{
+    
+    background: transparent;
+    padding: 10px 25px;
+    border: 2px solid #ee3b24;
+    color: var(--maincolor);
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-left: 460px;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    font-family: var(--kanitfont);
+    margin-bottom: 80px;
+    &:hover{
+        background-color: var(--maincolor);
+        color: var(--bgcolor);
+        cursor: pointer;
+    }
+}
+
+/* Contact Us end */
+
+/* footer start */
+.footer-con{
+    padding: 15px ;
+    background-color:var(--maincolor);
+    
+    
+}
+.main-contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 60px;
+}
+.first-con h1{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 30px;
+    font-family: 'open sans';
+}
+.first-con a{
+    font-size: 14px;
+    font-family: 'open sans';
+    color: white;
+    text-align: center;
+    font-weight: 700;
+   
+}
+.icon-contact{
+    text-align: center;
+   padding-left: 250px;
+ 
+}
+.icon-contact  .icons{
+    display: inline-block;
+    margin-top:14px;
+    margin-right: 5px;
+}
+.icon-contact .icons a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.icon-contact .icons a i{
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    &:hover{
+        color: var(--maincolor);
+    }
+}
+.icon-contact .icons:hover a {
+        background-color: white;
+}
+
+
+/* footer End */
+
+
+
+
+
+
+
+
+
+
+
